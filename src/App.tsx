@@ -1,10 +1,12 @@
-import './App.css'
+import { Container } from '@mui/material'
 import Home from './pages/home/home'
 
 function App() {
-  return <>
-    <Home/>
-  </>
+  return (
+    <Container sx={{backgroundColor:"palette.primary"}}>
+      <Home/>
+    </Container>
+  )
 }
 
-export default App
+export default App;
